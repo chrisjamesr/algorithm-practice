@@ -8,7 +8,7 @@ def sum(arr)
   total
 end
 
-def recurse(arr,total=0)
+def sum_recurse(arr,total=0)
   if arr.length >= 1 
     total += arr.shift
     recurse(arr, total)
@@ -19,12 +19,4 @@ end
 
 # load 'd-c-with-recursion.rb'
 
-
- 
-def return_total(total)
-  return total
-end
-
-def arr
-  arr = (1..5).to_a
-end  
+a
