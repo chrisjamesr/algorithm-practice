@@ -9,7 +9,7 @@ def find_smallest(arr)
       smallest_index = i
     end
   end 
-  puts "left for loop"
+  puts "left 'for' loop"
   smallest_index
 end
 
@@ -19,7 +19,7 @@ def selection_sort(arr)
     smallest_index = find_smallest(arr)
     new_array.push(arr.slice!(smallest_index))
   end
-    puts "left for loop"
+    puts "left 'for' loop"
     new_array
 end
 
